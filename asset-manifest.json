@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kitabisa-fe-test/static/css/main.68679d32.chunk.css",
+    "main.css": "/kitabisa-fe-test/static/css/main.9ca9f29e.chunk.css",
     "main.js": "/kitabisa-fe-test/static/js/main.eb9954be.chunk.js",
     "main.js.map": "/kitabisa-fe-test/static/js/main.eb9954be.chunk.js.map",
     "runtime-main.js": "/kitabisa-fe-test/static/js/runtime-main.8077cc20.js",
@@ -8,14 +8,14 @@
     "static/js/2.a2afab16.chunk.js": "/kitabisa-fe-test/static/js/2.a2afab16.chunk.js",
     "static/js/2.a2afab16.chunk.js.map": "/kitabisa-fe-test/static/js/2.a2afab16.chunk.js.map",
     "index.html": "/kitabisa-fe-test/index.html",
-    "precache-manifest.5d2c4d86493b9f19dbc58ed85abc5d47.js": "/kitabisa-fe-test/precache-manifest.5d2c4d86493b9f19dbc58ed85abc5d47.js",
+    "precache-manifest.efe06ea6cdce9dd3c735bef2efa77b64.js": "/kitabisa-fe-test/precache-manifest.efe06ea6cdce9dd3c735bef2efa77b64.js",
     "service-worker.js": "/kitabisa-fe-test/service-worker.js",
-    "static/css/main.68679d32.chunk.css.map": "/kitabisa-fe-test/static/css/main.68679d32.chunk.css.map"
+    "static/css/main.9ca9f29e.chunk.css.map": "/kitabisa-fe-test/static/css/main.9ca9f29e.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.8077cc20.js",
     "static/js/2.a2afab16.chunk.js",
-    "static/css/main.68679d32.chunk.css",
+    "static/css/main.9ca9f29e.chunk.css",
     "static/js/main.eb9954be.chunk.js"
   ]
 }

@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "468ef2c0690c70ed37edde6c8a925c88",
+    "revision": "ef2119b0b80ad88bde049af1c8f7a186",
     "url": "/kitabisa-fe-test/index.html"
   },
   {
-    "revision": "0881e1675baf939e54eb",
-    "url": "/kitabisa-fe-test/static/css/main.68679d32.chunk.css"
+    "revision": "19c23401732334370dd1",
+    "url": "/kitabisa-fe-test/static/css/main.9ca9f29e.chunk.css"
   },
   {
     "revision": "a3551bffc0da5bcf3f6d",
     "url": "/kitabisa-fe-test/static/js/2.a2afab16.chunk.js"
   },
   {
-    "revision": "0881e1675baf939e54eb",
+    "revision": "19c23401732334370dd1",
     "url": "/kitabisa-fe-test/static/js/main.eb9954be.chunk.js"
   },
   {
