@@ -4,3 +4,11 @@ a {
 a:hover {
   color: #4d80e4;
 }
+form > p {
+  font-size: 14px;
+}
+@media (min-width: 769px) {
+  form > p {
+    font-size: 20px;
+  }
+}
