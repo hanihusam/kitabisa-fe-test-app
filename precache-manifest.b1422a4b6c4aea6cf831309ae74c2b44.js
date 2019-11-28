@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b34b6d01f50f292d0c209c9224b08cf5",
+    "revision": "6d90da4f6589c603cf5a5dfd2725249f",
     "url": "/kitabisa-fe-test/index.html"
   },
   {
-    "revision": "1d6ca11b168f90161d38",
+    "revision": "fd5c0852d34e2ec26b59",
     "url": "/kitabisa-fe-test/static/css/main.6c0bf347.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kitabisa-fe-test/static/js/2.a2afab16.chunk.js"
   },
   {
-    "revision": "1d6ca11b168f90161d38",
-    "url": "/kitabisa-fe-test/static/js/main.043bccd4.chunk.js"
+    "revision": "fd5c0852d34e2ec26b59",
+    "url": "/kitabisa-fe-test/static/js/main.489542f9.chunk.js"
   },
   {
     "revision": "9061e71c91c6ec77f0bf",
