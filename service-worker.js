@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kitabisa-fe-test/precache-manifest.4c472a2d545d8df2848505ee35971c33.js"
+  "/kitabisa-fe-test/precache-manifest.fb43779df4dd745e5821f8966a19e1b5.js"
 );
 
 self.addEventListener('message', (event) => {

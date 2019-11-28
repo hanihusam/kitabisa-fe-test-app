@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kitabisa-fe-test/static/css/main.6c0bf347.chunk.css",
-    "main.js": "/kitabisa-fe-test/static/js/main.babee8b6.chunk.js",
-    "main.js.map": "/kitabisa-fe-test/static/js/main.babee8b6.chunk.js.map",
+    "main.js": "/kitabisa-fe-test/static/js/main.043bccd4.chunk.js",
+    "main.js.map": "/kitabisa-fe-test/static/js/main.043bccd4.chunk.js.map",
     "runtime-main.js": "/kitabisa-fe-test/static/js/runtime-main.8077cc20.js",
     "runtime-main.js.map": "/kitabisa-fe-test/static/js/runtime-main.8077cc20.js.map",
     "static/js/2.a2afab16.chunk.js": "/kitabisa-fe-test/static/js/2.a2afab16.chunk.js",
     "static/js/2.a2afab16.chunk.js.map": "/kitabisa-fe-test/static/js/2.a2afab16.chunk.js.map",
     "index.html": "/kitabisa-fe-test/index.html",
-    "precache-manifest.4c472a2d545d8df2848505ee35971c33.js": "/kitabisa-fe-test/precache-manifest.4c472a2d545d8df2848505ee35971c33.js",
+    "precache-manifest.fb43779df4dd745e5821f8966a19e1b5.js": "/kitabisa-fe-test/precache-manifest.fb43779df4dd745e5821f8966a19e1b5.js",
     "service-worker.js": "/kitabisa-fe-test/service-worker.js",
     "static/css/main.6c0bf347.chunk.css.map": "/kitabisa-fe-test/static/css/main.6c0bf347.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.8077cc20.js",
     "static/js/2.a2afab16.chunk.js",
     "static/css/main.6c0bf347.chunk.css",
-    "static/js/main.babee8b6.chunk.js"
+    "static/js/main.043bccd4.chunk.js"
   ]
 }
