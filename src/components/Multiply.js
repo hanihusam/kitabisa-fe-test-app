@@ -7,11 +7,19 @@ const Multiply = ({ getResult, setAlert, clearResult }) => {
   const [numY, setNumY] = useState(null);
 
   const handlenumXChange = e => {
-    setNumX(Number(e.target.value));
+    if (e.target.value === "") {
+      setNumX(null);
+    } else {
+      setNumX(Number(e.target.value));
+    }
   };
 
   const handlenumYChange = e => {
-    setNumY(Number(e.target.value));
+    if (e.target.value === "") {
+      setNumY(null);
+    } else {
+      setNumY(Number(e.target.value));
+    }
   };
 
   const multiplyAction = e => {

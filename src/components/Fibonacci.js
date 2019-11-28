@@ -56,9 +56,16 @@ const Fibonacci = ({ getResult, setAlert, clearResult }) => {
           onClick={e => {
             e.preventDefault();
             if (numX === null || numX === 0) {
-              setAlert("Jangan biarkan borang kosong", "danger");
+              setAlert("Borang tidak boleh kosong atau bernilai 0", "danger");
             } else {
-              getResult(fibonacciAction(numX - 1));
+              if (numX <= 0) {
+                setAlert(
+                  "Bilangan yang dimasukkan tidak boleh kurang dari 0",
+                  "danger"
+                );
+              } else {
+                getResult(fibonacciAction(numX - 1));
+              }
             }
           }}
         />

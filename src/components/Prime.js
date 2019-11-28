@@ -28,16 +28,22 @@ const Prime = ({ getResult, setAlert, clearResult }) => {
     let num = 2;
 
     if (numX === null || numX === 0) {
-      setAlert("Jangan biarkan borang kosong", "danger");
+      setAlert("Borang tidak boleh kosong atau bernilai 0", "danger");
     } else {
-      while (primes.length < n) {
-        if (isPrime(num)) {
-          primes.push(num);
+      if (numX <= 0) {
+        setAlert(
+          "Bilangan yang dimasukkan tidak boleh kurang dari 0",
+          "danger"
+        );
+      } else {
+        while (primes.length < n) {
+          if (isPrime(num)) {
+            primes.push(num);
+          }
+          num += 1;
         }
-
-        num += 1;
+        getResult(primes);
       }
-      getResult(primes);
     }
   };
 

@@ -18,58 +18,25 @@ const Card = ({ result, getResult, clearResult, setAlert, alert }) => {
               id="pills-tab"
               role="tablist"
             >
-              <li className="col-md-6 nav-item">
-                <a
-                  className="nav-link active"
-                  id="pills-sum-tab"
-                  data-toggle="pill"
-                  href="#pills-sum"
-                  role="tab"
-                  aria-controls="pills-sum"
-                  aria-selected="true"
-                >
-                  Sum X & Y
-                </a>
-              </li>
-              <li className="col-md-6 nav-item">
-                <a
-                  className="nav-link"
-                  id="pills-multiplay-tab"
-                  data-toggle="pill"
-                  href="#pills-multiply"
-                  role="tab"
-                  aria-controls="pills-multiply"
-                  aria-selected="false"
-                >
-                  Multiply X & Y
-                </a>
-              </li>
-              <li className="col-md-6 nav-item">
-                <a
-                  className="nav-link"
-                  id="pills-prime-tab"
-                  data-toggle="pill"
-                  href="#pills-prime"
-                  role="tab"
-                  aria-controls="pills-prime"
-                  aria-selected="false"
-                >
-                  Find Prime Number
-                </a>
-              </li>
-              <li className="col-md-6 nav-item">
-                <a
-                  className="nav-link"
-                  id="pills-fibonacci-tab"
-                  data-toggle="pill"
-                  href="#pills-fibonacci"
-                  role="tab"
-                  aria-controls="pills-fibonacci"
-                  aria-selected="false"
-                >
-                  Find Fibonacci Sequence
-                </a>
-              </li>
+              {dataTabs.map((tab, index) => {
+                const cls = index === 0 ? "active" : "";
+                const selected = index === 0 ? "true" : "false";
+                return (
+                  <li key={tab.id} className="col-md-6 nav-item">
+                    <a
+                      className={`nav-link ${cls}`}
+                      id={`pills-${tab.name}-tab`}
+                      data-toggle="pill"
+                      href={`#pills-${tab.name}`}
+                      role="tab"
+                      aria-controls={`pills-${tab.name}`}
+                      aria-selected={selected}
+                    >
+                      {tab.content}
+                    </a>
+                  </li>
+                );
+              })}
             </ul>
             <Alert alert={alert} />
             <div className="tab-content" id="pills-tabContent">
@@ -109,5 +76,28 @@ Card.propTypes = {
   getResult: PropTypes.func.isRequired,
   setAlert: PropTypes.func.isRequired
 };
+
+const dataTabs = [
+  {
+    id: 1,
+    name: "sum",
+    content: "Sum X & Y"
+  },
+  {
+    id: 2,
+    name: "multiply",
+    content: "Multipy X & Y"
+  },
+  {
+    id: 3,
+    name: "prime",
+    content: "Prime Number"
+  },
+  {
+    id: 4,
+    name: "fibonacci",
+    content: "Fibonacci Sequence"
+  }
+];
 
 export default Card;
