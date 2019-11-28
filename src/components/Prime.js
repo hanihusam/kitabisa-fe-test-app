@@ -28,7 +28,7 @@ const Prime = ({ getResult, setAlert, clearResult }) => {
     let num = 2;
 
     if (numX === null || numX === 0) {
-      setAlert("Borang tidak boleh kosong atau bernilai 0", "danger");
+      setAlert("Tolong perikasa kembali masukan Anda", "danger");
     } else {
       if (numX <= 0) {
         setAlert(

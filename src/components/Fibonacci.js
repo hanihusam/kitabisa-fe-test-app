@@ -56,7 +56,7 @@ const Fibonacci = ({ getResult, setAlert, clearResult }) => {
           onClick={e => {
             e.preventDefault();
             if (numX === null || numX === 0) {
-              setAlert("Borang tidak boleh kosong atau bernilai 0", "danger");
+              setAlert("Tolong perikasa kembali masukan Anda", "danger");
             } else {
               if (numX <= 0) {
                 setAlert(

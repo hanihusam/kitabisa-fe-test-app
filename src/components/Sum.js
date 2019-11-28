@@ -25,7 +25,7 @@ const Sum = ({ getResult, setAlert, clearResult }) => {
   const addAction = e => {
     e.preventDefault();
     if (numX === null || numY === null) {
-      setAlert("Jangan biarkan borang kosong", "danger");
+      setAlert("Tolong perikasa kembali masukan Anda", "danger");
     } else {
       let res = numX + numY;
       getResult(res);

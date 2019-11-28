@@ -25,7 +25,7 @@ const Multiply = ({ getResult, setAlert, clearResult }) => {
   const multiplyAction = e => {
     e.preventDefault();
     if (numY === null || numX === null) {
-      setAlert("Jangan biarkan borang kosong", "danger");
+      setAlert("Tolong perikasa kembali masukan Anda", "danger");
     } else {
       let res = numX * numY;
       getResult(res);
